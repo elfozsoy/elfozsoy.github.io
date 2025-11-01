@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="box">
+        <h1 style="font-size: 350%; text-align: center;">Soru 5.</h1>
+        <h1>Kodu deşifre edin: 3@C=5@ 3@C=5@ + snprobbx , CookedCode</h1>
+          <input type="text" id="cevap" placeholder="Cevabını yaz">
+          <button onclick="kontrolEt()">Kontrol Et</button>
+          <p id="sonuc"></p>
+          <button class="button2" onclick="window.location.href='altinci.html'">sonraki soru</button>
+    </div>
+
+      <script>
+    function kontrolEt() {
+      let dogru = "KitcherKey".toLowerCase();
+      let girilen = document.getElementById("cevap").value.toLowerCase().trim();
+      let sonuc = document.getElementById("sonuc");
+
+      if (girilen === dogru) {
+        sonuc.innerText = " Doğru cevap!";
+      } else {
+        sonuc.innerText = " Yanlış, tekrar dene.";
+      }
+    }
+  </script>
+    
+</body>
+</html>
