@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 700px;
+    height: 500px;
+    font-family: "VT323";
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    border-radius: 1px;
+    text-align: center;
+}
+
+input {
+    width: 550px;
+    height: 75px;
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+}
+
+button {
+    background-color: greenyellow;
+    font-family: "VT323";
+    width: 150px;
+    height: 25px;
+    margin-top: 20px;
+}
+
+.button2 {
+    width: 150px;
+    height: 25px;
+    border: 1px solid greenyellow;
+    margin-top: -43px;
+}

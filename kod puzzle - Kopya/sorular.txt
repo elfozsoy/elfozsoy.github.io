@@ -1,0 +1,62 @@
+======================================================================================================
+1. soru
+
+kod: 1018+else_if8
+cevap: BASLANGIC
+
+çözüm: 
+BAS kısmı: base64 ile 1018. 
+LANGIÇ kısmı: else_if8 adlı instagram hesabındaki 1. gönderideki kırlangıç dan "kır" kısmını çıkar.
+ikisini birleştir.
+======================================================================================================
+2. soru
+
+kod:dmFmZ250ZW56bnR2Zw==
+cevap: biliyorsun
+
+çözüm:
+önce base64 şifresi çözülür ve "vafgntenzntvg" sözcük grubuna ulaşılır. Bu grubu da ROT13 ile 
+çözümlediğimizde "instagramagit" cümlesine ulaşılır. yine aynı instagram hesabındaki
+2. gönderideki qr kodu okutup dökümanlara ulaşıldığında cevabın ASCII yöntemi ile şifrelenmiş 
+versiyonuna ulaşılır.
+======================================================================================================
+3. soru
+
+kod:NDQyMzE1MjUyNDQ0MTMyMzE1NDI=
+cevap: C0FFEE
+
+çözüm:
+kod base64 ile çözümlenir ve sonuç olarak "the_kitcher" mesajı çıkar. Sitenin instagram hesabına gidilir
+ve açıklama kısmındaki bir diğer instagram hesabına gidilir. Hesapta paylaşılan posta tıklanır ve rengin 
+HEX değeri bulunarak cevaba ulaşılır.
+======================================================================================================
+4. soru
+
+kod: https://docs.google.com/document/d/1n24nl3tQK5_tIbMB6VtNxf0LtxPC90a_VhQOh3iKJ8E/edit?usp=sharing 
+| https://elfozsoy.github.io/sifre/ 
+cevap: ş
+
+çözüm:
+iki linke de tıklanır. doc sayfasında morse alfabesi ile yazılmış bir mektup vardır ve morse alfabesi
+ile çözümleyip türkçeye çevrilir. Açılan diğer sayfada yazılan kod "Ow==" önce base64 ile çözümlenir ve
+";" sonucuna ulaşılır. Daha sonra bu karakter binary versiyonuna çevrilir ve onu da çevirerek 59 
+sayısına ulaşılır. Sonra ilk başta çıkan mektubun 59. harfi olan "ş" ye ulaşılır (umarım). 
+======================================================================================================
+5. soru
+
+kod: 3@C=5@ 3@C=5@ + snprobbx , CookedCode
+cevap: KitcherKey
+
+çözüm:
+ilk kod ROT47 ile çözümlenir ve sonuç "elseif elseif" çıkar, ikinci kod ROT13 ile çözümlenir ve "facebook"
+koduna ulaşılır. Facebookdan ilk sonucun hesabına girilir ve çıkan kod taratılır. "CoocedCode" anahtarı 
+Base64 ile çözümlenerek (Q29va2VkQ29kZQ==) dosyaya girilir ve dosyada Wingdings sembolleri ile yazılan
+"KitcherKey" anahtarı bulunur.
+======================================================================================================
+6. soru
+
+kod: 56 57 35 6D 64 55 39 6C 59 6D 70 68 5A 67 3D 3D
+cevap: HashBrowns
+
+çözüm:
+kod önce ASCII ile, sonra Base64 ile, en son da ROT13 ile çevrilir ve anahtar kelimeye ulaşılır.
